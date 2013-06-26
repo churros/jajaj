@@ -26,6 +26,13 @@
 			device.phonegap + ')<br />' + device.platform + ' ' +
 			device.name + ' (version ' + device.version + ').';
 		}
+		$( ".selector" ).checkboxradio({ theme: "a" });
+		var theme = $( ".selector" ).checkboxradio( "option", "theme" );
+// setter
+$( ".selector" ).checkboxradio( "option", "theme", "a" );
+$( ".selector" ).checkboxradio( "disable" );
+$( ".selector" ).checkboxradio( "enable" );
+
 	</script>
 	
 	
